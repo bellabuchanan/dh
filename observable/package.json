@@ -1,0 +1,14 @@
+{
+  "name": "5f51977a1019d45c",
+  "main": "5f51977a1019d45c@562.js",
+  "version": "562.0.0",
+  "homepage": "https://observablehq.com/d/5f51977a1019d45c",
+  "author": {
+    "name": "Isabella Buchanan",
+    "url": "https://observablehq.com/@bellabuchanan"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}

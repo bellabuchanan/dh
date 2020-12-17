@@ -22,7 +22,7 @@ body {
 <script type="module">
 
 import {Runtime, Library, Inspector} from "./runtime.js";
-import barChartRace from "./bar-chart-race/index.js";
+import obervable from "./observable/index.js";
 
 // Initialize the Observable Runtime, telling it to use our local copy of D3
 // rather than loading one from a CDN.
@@ -39,7 +39,5 @@ const main = runtime.module(observable, name => {
     return new Inspector(document.querySelector(`[name='${name}']`));
   }
 });
-
-
 
 </script>
